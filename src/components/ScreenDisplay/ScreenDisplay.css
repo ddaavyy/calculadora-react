@@ -1,0 +1,18 @@
+.visor {
+    background-color: white;
+    width: 236px;
+    height: 64px;
+    display: flex;
+    margin-bottom: 6px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: end;
+    border: 1px solid rgba(134, 134, 134, 0.829);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1), 0px 3px 10px rgba(0, 0, 0, 0.2);
+
+    span {
+        margin-right: 4px;
+        margin-left: 4px;
+        font-size: 24px;
+    }
+}

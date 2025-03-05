@@ -1,0 +1,50 @@
+.numberbutton-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.operatorsbutton-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-left: 6px;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    gap: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid rgb(131, 131, 131);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1), 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+.bottompart-container {
+    display: flex;
+    gap: 6px;
+}
+
+.buttom-zero {
+    width: 200px;    
+}
+
+.operation {
+    background-color: #E63E82;
+    color: white;
+}
+
+.operation:hover{
+    background-color: #b63367;
+}
+
+.number, .action, .operation {
+    width: 54px;
+    height: 54px;
+}
